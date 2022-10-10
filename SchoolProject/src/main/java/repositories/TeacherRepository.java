@@ -1,6 +1,5 @@
 package repositories;
 
-import models.Student;
 import models.Teacher;
 
 import java.util.ArrayList;

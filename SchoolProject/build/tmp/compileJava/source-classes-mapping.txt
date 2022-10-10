@@ -1,0 +1,26 @@
+models/School.java
+ models.School
+helpers/Score.java
+ helpers.Score
+services/ReadDataService.java
+ services.ReadDataService
+ services.ReadDataService$1
+ services.ReadDataService$2
+helpers/Grade.java
+ helpers.Grade
+models/Subject.java
+ models.Subject
+models/Teacher.java
+ models.Teacher
+repositories/TeacherRepository.java
+ repositories.TeacherRepository
+models/Student.java
+ models.Student
+repositories/StudentRepository.java
+ repositories.StudentRepository
+services/WriteDataService.java
+ services.WriteDataService
+services/AccessValidator.java
+ services.AccessValidator
+Main.java
+ Main

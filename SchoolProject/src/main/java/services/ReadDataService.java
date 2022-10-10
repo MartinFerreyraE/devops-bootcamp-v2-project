@@ -3,6 +3,7 @@ package services;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import models.Student;
+import models.Teacher;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -13,6 +14,24 @@ import java.util.List;
 public class ReadDataService {
     public ReadDataService() {}
 
+    public List<Teacher> readTeachersDataFromJson() {
+        List<Teacher> teachers = null;
+
+        try {
+            Gson gson = new Gson();
+            var path = (Paths.get("teachers.json"));
+            System.out.println(path);
+            Reader reader = Files.newBufferedReader(Paths.get("src/main/resources/teachers.json"));
+
+            teachers = gson.fromJson(reader, new TypeToken<List<Teacher>>() {}.getType());
+            reader.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return teachers;
+    }
     public List<Student> readStudentsDataFromJson() {
         List<Student> students = null;
                 

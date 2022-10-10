@@ -1,0 +1,74 @@
+[
+  {
+  "student": "ST-01-John",
+  "name": "John Doe",
+  "subject": "Mathematics",
+  "grades": "B"
+  },
+  {
+    "student": "ST-01-John",
+    "name": "John Doe",
+    "subject": "English",
+    "grades": "B"
+  },
+  {
+    "student": "ST-01-John",
+    "name": "John Doe",
+    "subject": "Sports",
+    "grades": "B"
+  },
+  {
+    "code": "ST-02-Tom",
+    "name": "Tom Lee",
+    "subject": "Mathematics",
+    "grades": "C"
+  },
+  {
+    "code": "ST-02-Tom",
+    "name": "Tom Lee",
+    "subject": "English",
+    "grades": "C"
+  },
+  {
+    "code": "ST-02-Tom",
+    "name": "Tom Lee",
+    "subject": "Sports",
+    "grades": "C"
+  },
+  {
+    "code": "ST-03-Mike",
+    "name": "Mike Tyson",
+    "subject": "Mathematics",
+    "grades": "A"
+  },
+  {
+    "code": "ST-03-Mike",
+    "name": "Mike Tyson",
+    "subject": "English",
+    "grades": "A"
+  },
+  {
+    "code": "ST-03-Mike",
+    "name": "Mike Tyson",
+    "subject": "Sports",
+    "grades": "A"
+  },
+  {
+    "code": "ST-04-Rocky",
+    "name": "Rocky Balboa",
+    "subject": "Mathematics",
+    "grades": "B"
+  },
+  {
+    "code": "ST-04-Rocky",
+    "name": "Rocky Balboa",
+    "subject": "English",
+    "grades": "B"
+  },
+  {
+    "code": "ST-04-Rocky",
+    "name": "Rocky Balboa",
+    "subject": "Sports",
+    "grades": "B"
+  }
+]

@@ -1,9 +1,11 @@
 package repositories;
 
+import helpers.Grade;
 import models.Student;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StudentRepository {
     private List<Student> students;
@@ -22,5 +24,13 @@ public class StudentRepository {
 
     public void addStudent(Student s) {
         this.students.add(s);
+    }
+    public List<Student> readStudentsByGrade(Grade grade) {
+        // Accumulate names into a List
+        return students.stream().filter(student -> student.getGrade() == grade).collect(Collectors.toList());
+    }
+    public List<Student> readStudentsByCode(String code) {
+        // Accumulate names into a List
+        return students.stream().filter(student -> student.getCode() == code).collect(Collectors.toList());
     }
 }

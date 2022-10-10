@@ -19,11 +19,7 @@ public class Teacher {
         return code;
     }
 
-    public void addSubject(Subject sub) {
-        if (this.subjectList == null) {
-            this.subjectList = new ArrayList<>();
-        }
-
-        this.subjectList.add(sub);
+    public String getName() {
+        return name;
     }
 }
